@@ -2,7 +2,7 @@ const { getSelectedDocument } = require('sketch/dom')
 const { fillShapeWithSymbolMaster, isShapeLayer, hasShapeLayer } = require('./common')
 const UI = require('sketch/ui')
 
-const SYMBOL_FOLDER = 'Patterns'
+const SYMBOL_FOLDER = 'Patterns/'
 
 export default function() {
   const document = getSelectedDocument()

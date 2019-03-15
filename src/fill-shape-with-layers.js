@@ -54,9 +54,7 @@ const convertLayersToSymbolMaster = function(layers, document) {
 }
 
 const getSymbolsPage = function(document) {
-  let symbolsPage = document.pages.find(page => {
-    return page.name === 'Symbols'
-  })
+  let symbolsPage = document.pages.find(page => page.name === 'Symbols')
   if (symbolsPage != null) {
     return symbolsPage
   } else {

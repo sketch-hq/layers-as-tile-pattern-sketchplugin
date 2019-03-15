@@ -2,7 +2,7 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
-  "identifier": "com.sketchapp.layers-as-tile-pattern",
+  "identifier": "com.sketch.layers-as-tile-pattern",
   "commands": [
     {
       "name": "Fill Shape with Selected Layers",
