@@ -1,0 +1,34 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "identifier": "com.sketchapp.layers-as-tile-pattern",
+  "commands": [
+    {
+      "name": "Fill Shape with Selected Layers",
+      "identifier": "fill-shape-with-layers",
+      "script": "./fill-shape-with-layers.js"
+    },
+    {
+      "script": "./fill-shape-with-layers.js",
+      "identifier": "action-listeners",
+      "handlers": {
+        "actions": {
+          "SelectionChanged.finish": "onSelectionChanged"
+        }
+      }
+    },
+    {
+      "name": "Fill Selected Shapes with Symbol",
+      "identifier": "fill-shapes-with-symbol",
+      "script": "./fill-shapes-with-symbol.js"
+    }
+  ],
+  "menu": {
+    "title": "Layers as Tile Pattern",
+    "items": [
+      "fill-shape-with-layers",
+      "fill-shapes-with-symbol"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "layers-as-tile-pattern",
+  "version": "0.9.0",
+  "description": "Use layers as a tile pattern to fill a shape",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "Layers as Tile Pattern",
+    "manifest": "src/manifest.json",
+    "main": "layers-as-tile-pattern.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.11"
+  },
+  "author": "Sketch",
+  "licence": "MIT",
+  "repository": {
+    "url": "https://github.com/skpm/layers-as-tile-pattern-sketchplugin"
+  }
+}
