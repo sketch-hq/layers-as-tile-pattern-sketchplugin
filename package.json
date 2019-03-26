@@ -1,6 +1,6 @@
 {
   "name": "layers-as-tile-pattern",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use layers as a tile pattern to fill a shape",
   "engines": {
     "sketch": ">=3.0"
