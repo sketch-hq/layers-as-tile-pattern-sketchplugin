@@ -8,7 +8,7 @@ Use layers as a tile pattern to fill a shape. The layers you use as a tile patte
  
 ### From a release (simplest)
  
-- [Download](https://github.com/skpm/layers-as-tile-pattern-sketchplugin/releases/latest) the latest release of the plugin
+- [Download](https://github.com/BohemianCoding/layers-as-tile-pattern-sketchplugin/releases/latest) the latest release of the plugin
 - Double-click the .zip file to extract the plugin
 - Double-click `layers-as-tile-pattern.sketchplugin` to install the plugin
 
