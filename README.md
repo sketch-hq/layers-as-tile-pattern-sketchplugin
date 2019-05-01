@@ -8,8 +8,8 @@ Use layers as a tile pattern to fill a shape. The layers you use as a tile patte
  
 ### From a release (simplest)
  
-- [Download](https://github.com/BohemianCoding/layers-as-tile-pattern-sketchplugin/releases/latest) the latest release of the plugin
-- Double-click the .zip file to extract the plugin
+- Download the [latest release](https://github.com/BohemianCoding/layers-as-tile-pattern-sketchplugin/releases/latest) of the plugin
+- Double-click the .zip archive to extract the plugin
 - Double-click `layers-as-tile-pattern.sketchplugin` to install the plugin
 
 ### From source
@@ -19,15 +19,17 @@ Use layers as a tile pattern to fill a shape. The layers you use as a tile patte
 
 ## Usage
 
-### To fill a shape with selected layers
+### Fill a shape with selected layers
 
-- Select the layers you want to use as a tile pattern.
-- Go to _Plugins > Layers as Tile Pattern > Fill Shape with Selected Layers_
-- Select the shape you want to fill. The tile pattern layers are converted to a symbol, named in the format of `Patterns/Pattern n` and the shape is filled with tiled symbol instances.
+1. Select the layers you want to use as a tile pattern
+1. Go to _Plugins_ › _Layers as Tile Pattern_ › _Fill Shape with Selected Layers_
+1. Select the shape you want to fill
 
-### To fill a shape with a symbol
+The tile pattern layers are converted to a symbol, named in the format of `Patterns/Pattern n` and the shape is filled with tiled symbol instances.
 
-- Select the shape you want to fill
-- Go to _Plugins > Layers as Tile Pattern > Fill Selected Shape with Symbol_
-- Select the symbol you want to use as a tile pattern. Symbols starting with `Patterns/` will appear first.
+### Fill a shape with a symbol
+
+1. Select the shape you want to fill
+1. Go to _Plugins_ › _Layers as Tile Pattern_ › _Fill Selected Shape with Symbol_
+1. Select the symbol you want to use as a tile pattern. Symbols starting with `Patterns/` will appear first.
 
