@@ -2,7 +2,7 @@
 
 Use layers as a tile pattern to fill a shape. The layers you use as a tile pattern is converted to a symbol and then tiled to fill the shape. You can also fill a shape with an existing symbol.
 
-<img src="https://user-images.githubusercontent.com/1472553/54437005-9924c380-472b-11e9-9abe-12e16e085112.gif" alt="Animated screenshot"/>
+<img width="1140" alt="Layer as Pattern Fill" src="https://user-images.githubusercontent.com/69443/58330184-3ee06700-7e2e-11e9-88ce-bed48b51d11f.png">
 
 ## Installation
  
